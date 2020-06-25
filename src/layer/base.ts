@@ -1,6 +1,6 @@
 const { release, clear } = require('../utilities/kernel');
 
-class Base {
+export class Base {
   width: any;
   height: any;
   depth: null;
