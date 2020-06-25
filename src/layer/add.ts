@@ -14,7 +14,7 @@ export class Add extends Operator {
   inputLayer1: any;
   inputLayer2: any;
   constructor(inputLayer1: any, inputLayer2: any, settings: any) {
-    super();
+    super(settings);
     this.inputLayer1 = inputLayer1;
     this.inputLayer2 = inputLayer2;
     this.width = this.inputLayer1.width;
